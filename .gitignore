@@ -1,5 +1,6 @@
 .idea/
 vendor/
+/tests/selenium-server/
 /phpunit.xml
 /codeception.yml
-/tests/unit.suite.yml
+/tests/*.yml

@@ -1,0 +1,15 @@
+actor: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser:
+            url: https://github.com/
+#        - WebDriver:
+#            url: https://github.com/
+#            browser: chrome
+#            window_size: maximize
+#        - \Helper\Acceptance
+#extensions:
+#    enabled:
+#        - Codeception\Extension\RunProcess:
+#            0: php tests/run-selenium-server.php
+#            sleep: 60 # only first run
